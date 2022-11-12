@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="bepipe-launcher",
+    name="bepipe-tools",
     version="0.0.1",
     author="Bruce Evans",
     author_email="brucein3d@gmail.com",

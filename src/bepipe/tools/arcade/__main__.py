@@ -1,15 +1,8 @@
-##
-## 
-##
-##
 
 import sys
-_MODULE_PATH = "/Users/bevans/Documents/_dev/git/bepipe-launcher/src"
-sys.path.append(_MODULE_PATH)
 
-# import os
-from PySide2 import QtWidgets
-from ui.be_launcher import BeLauncher
+from Qt import QtWidgets
+from .ui import be_launcher
 
 _LAUNCHER = None
 
